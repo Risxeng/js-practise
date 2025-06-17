@@ -44,13 +44,33 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isloged'));
-
-
+// console.log(tinderuser.hasOwnProperty('isloged'));
 
 
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Rishav"
+}
+
+
+//course.courseInstructor
+// const{courseInstructor} = course
+const{courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+
+// desturctoring in react
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "rishav")
