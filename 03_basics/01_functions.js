@@ -22,5 +22,33 @@ function loginusermessage(username = "Ris"){
 }
 
 // console.log(loginusermessage("rishav"))
-console.log(loginusermessage());
+// console.log(loginusermessage());
+
+
+function calculateprice(val1, val2, ...num1){  //... => spread operator and rest operator
+    return num1
+}
+// console.log(calculateprice(200,400,300,2000,49530))
+
+const user = {
+    username: "Rishav",
+    price: 199
+}
+
+function handleObject(anyobject) {
+    console.log(`username is ${anyobject.username} amd the price is ${anyobject.price}`);
+}
+// handleObject(user)
+handleObject({
+    username: "Ris",
+    price: 299
+})
+
+const mynewarray = [200,400,600,100,910]
+
+function returnsecondvalue(getArray){
+    return getArray[1]
+}
+// console.log(returnsecondvalue(mynewarray));
+console.log(returnsecondvalue([200,400,600,100,910]));
 
