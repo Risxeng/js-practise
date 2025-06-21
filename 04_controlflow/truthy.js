@@ -6,3 +6,8 @@ const emptyobj = {}
 if(Object.keys(emptyobj).length === 0) {
     console.log("object is empty");
 }
+
+//Nullish Coalescing Operator (??): null undefined
+
+//terniary operator
+// condition ? true : false
